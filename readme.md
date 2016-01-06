@@ -11,4 +11,4 @@ Secondly, you can click the notes with your mouse (or tap with your finger).
 Thirdly, if you are using Chrome, you can connect a MIDI keyboard, and play
 via that method. If it doesn't work first time, try refreshing or re-connecting.
 
-There's a live version of this synth over at (http://outputchannel.com/monophonic-ringtone-synthesizer/)[http://outputchannel.com/monophonic-ringtone-synthesizer/]
+There's a live version of this synth over at [http://outputchannel.com/monophonic-ringtone-synthesizer/](http://outputchannel.com/monophonic-ringtone-synthesizer/)
