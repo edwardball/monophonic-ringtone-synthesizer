@@ -1,0 +1,96 @@
+html{
+	min-width:320px;
+}
+
+body{
+	background: #c3c0b4;
+	background-image: -moz-radial-gradient(center center, circle cover, #c3c0b4, #b8b5a6);
+	background-image: -webkit-radial-gradient(center center, circle cover, #c3c0b4, #b8b5a6);
+	background-image: radial-gradient(center center, circle cover, #c3c0b4, #b8b5a6);
+}
+
+.phone-wrapper{
+	width:600px;
+	height:258px;
+	position: absolute;
+	left:50%;
+	top:50%;
+	margin: -129px 0 0 -300px;
+}
+
+.phone{
+	width:100%;
+	height:258px;
+	background: url('images/phone-background.jpg');
+	background-size: 100%;
+	position: relative;
+}
+
+.keyboard-wrapper{
+	width: 366px;
+    height: 166px;
+    padding-top: 20px;
+    padding-left: 22px;
+    position: absolute;
+    top: 36px;
+    left: 117px;
+}
+
+.sidebar {
+    width: 320px;
+    height: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    z-index: 0;
+    transition: all 0.5s;
+}
+
+.sidebar-closed{
+	right:-290px;
+}
+
+.sidebar-inner{
+	width:250px;
+	height: 100%;
+	height: calc(100% - 40px);
+	overflow-y: scroll;
+	float:left;
+	background: rgba(241,241,241,0.9);
+	color: #333;
+    padding: 20px;
+    font-size: 15px;
+    line-height: 1.3;
+
+}
+
+.sidebar-inner a {
+	opacity: 0.8;
+}
+
+.sidebar-inner a:hover{
+	opacity: 1;
+}
+
+.sidebar ul {
+	margin-left:20px;
+}
+
+.sidebar li {
+	margin-bottom: 1em;
+}
+
+.sidebar-toggle {
+	background: rgba(241,241,241,0.5);
+	opacity: 0.8;
+	color:#333;
+	cursor: pointer;
+	float:left;
+	width:30px;
+	height:30px;
+	line-height: 30px;
+    text-align: center;
+    font-size: 22px;
+}
